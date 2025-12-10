@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+
+@import "tailwindcss";
+
+
+@theme {
+  --font-orbitron: "Orbitron", sans-serif;
+  --font-mono-space: "Space Mono", monospace;
+
+  --color-principal: #030308;
+  --color-font-primary: #A78BFA;
+  --color-font-secondary: #22D3EE;
+}
+
+.wrapper {
+  @apply flex flex-col items-center justify-center;
+}
