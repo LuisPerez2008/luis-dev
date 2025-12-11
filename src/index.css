@@ -4,14 +4,22 @@
 
 
 @theme {
+  --text-xsm: 12px;
+
   --font-orbitron: "Orbitron", sans-serif;
   --font-mono-space: "Space Mono", monospace;
 
   --color-principal: #030308;
   --color-font-primary: #A78BFA;
   --color-font-secondary: #22D3EE;
+  --color-morado-400: #261B47;
+  --color-morado-500: #3B2A6D;
+  --color-morado-600: #4C3B8E;
+  --color-morado-700: #5E4CAF;
+  --color-morado-800: #c0b3e2;
 }
 
 .wrapper {
   @apply flex flex-col items-center justify-center;
 }
+
