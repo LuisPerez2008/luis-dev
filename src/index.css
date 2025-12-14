@@ -2,6 +2,8 @@
 
 @import "tailwindcss";
 
+@plugin '@midudev/tailwind-animations';
+
 
 @theme {
   --text-xsm: 12px;
@@ -16,8 +18,12 @@
   --color-morado-500: #3B2A6D;
   --color-morado-600: #4C3B8E;
   --color-morado-700: #5E4CAF;
-  --color-morado-800: #c0b3e2;
+  --color-morado-800: #9E92CD;
+ 
+  --text-lp: 40px
+  
 }
+
 
 .wrapper {
   @apply flex flex-col items-center justify-center;
