@@ -1,6 +1,6 @@
 export const AboutMe = () => {
     return (
-        <section className="text-white wrapper space-y-4 mt-15 bg-amber-200  ">
+        <section className="text-white wrapper space-y-4 mt-15  ">
             <div className=" rounded-full  bg-linear-to-r w-24 h-24 wrapper from-indigo-200 via-purple-500 to-cyan-700 text-transparent p-4 rotate-22 opacity-100 shadow-3xl shadow-purple-200 ">
                 <h1 className=" text-2xl font-orbitron text-white font-extrabold -rotate-22 ">
                     LP

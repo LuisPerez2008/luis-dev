@@ -1,6 +1,6 @@
 export const AboutMe2 = () => {
     return (
-        <section className="mt-32 mb-50 text-white">
+        <section className="mt-32 text-white">
             <div className="max-w-[90%] mx-auto flex flex-col gap-10">
                 <div className="flex items-center gap-3 group ">
                     <div className="relative flex items-center justify-center ">
@@ -23,19 +23,7 @@ export const AboutMe2 = () => {
                         </p>
                     </div>
                 </div>
-                {/*  <div className="">
-                    <div className="border border-morado-600 p-6 bg-morado-400/15  rounded-xl text-white blur-  relative z-50">
-                    
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing
-                            elit. Totam ratione laudantium at laboriosam
-                            officiis et natus ducimus aliquam odit nesciunt
-                            neque cum, commodi error ex qui magni, assumenda,
-                            veniam molestiae?
-                        </p>
-                    </div>
-                   
-                </div> */}
+                
             </div>
         </section>
     );
