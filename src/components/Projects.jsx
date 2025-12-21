@@ -2,7 +2,7 @@ import { PROJECTS } from "../data/projectsData";
 
 export const Projects = () => {
     return (
-        <section className="mt-10 mb-30 text-white">
+        <section className="mt-10  text-white">
             <div className="max-w-[90%] mx-auto flex flex-col gap-10">
                 <div className="flex items-center gap-3 group ">
                     <div className="relative flex items-center justify-center ">
@@ -51,7 +51,7 @@ export const Projects = () => {
                                         {pro.description}
                                     </p>
                                 </div>
-                                <div className="flex gap-3 mt-2  h-auto">
+                                <div className="flex gap-3 mt-2 flex-wrap h-auto">
                                     {
                                         pro.tags.map( tag => (
                                               <div key={tag.id} className="border text-sm border-morado-600 px-2 rounded-full  bg-morado-500/40 flex items-center justify-center gap-3 py-1">
