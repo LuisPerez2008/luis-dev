@@ -19,7 +19,7 @@ export const AboutMe2 = () => {
                     <div className="absolute inset-0 bg-morado-500/40 blur-2xl rounded-xl -z-10" />
                     <div className=" relative z-10 border border-morado-600 p-6 bg-morado-400/15 rounded-xl text-white backdrop-blur-xs hover:border-morado-700">
                         <p>
-                            Ingeniero en sistemas, especializado en el <span className="text-font-primary">desarrollo FullSatck</span> con metodologias agiles 
+                            Ingeniero en sistemas, especializado en el <span className="text-font-primary">desarrollo FullSatck</span> con metodologias agiles Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda dolorem, sapiente repellendus molestias adipisci provident illo similique voluptatem, natus debitis esse nobis at ab corrupti aspernatur voluptas, minus eos voluptate! 
                         </p>
                     </div>
                 </div>

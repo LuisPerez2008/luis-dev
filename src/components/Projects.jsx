@@ -12,7 +12,7 @@ export const Projects = () => {
                         </svg>
                     </div>
 
-                    <span className="font-orbitron whitespace-nowrap text-white w-full text-2xl font-bold relative inline-flex items-center gap-4 after:content-[''] after:block after:h-0.5 after:w-full after:bg-linear-to-r after:from-morado-600 after:to-transparent after:shadow-md   ">
+                    <span className="font-orbitron  text-white w-full text-2xl font-bold relative inline-flex items-center gap-4 after:content-[''] after:block after:h-0.5 after:w-full after:bg-linear-to-r after:from-morado-600 after:to-transparent after:shadow-md text-wrap overflow-hidden md:text-nowrap">
                         PROYETOS PERSONALES
                     </span>
                 </div>

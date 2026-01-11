@@ -30,3 +30,23 @@
   @apply flex flex-col items-center justify-center;
 }
 
+html, body {
+  background-color: var(--color-principal);
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-principal);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--color-morado-600);
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--color-morado-700);
+}

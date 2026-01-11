@@ -6,7 +6,7 @@ export const AboutMe = () => {
                     LP
                 </h1>
             </div>
-            <div className="wrapper space-y-3">
+            <div className="wrapper space-y-3 w-[90%]">
                 <h1 className="font-orbitron text-lp text-center font-semibold bg-linear-to-r from-indigo-100 via-purple-300 to-cyan-300 text-transparent bg-clip-text ">
                     Luis Antonio Perez Luna
                 </h1>
@@ -42,7 +42,7 @@ export const AboutMe = () => {
                 </button>
             </div>
             <div className="max-w-[80%] flex  gap-10 mt-15 ">
-                <div className="bg-morado-500/50 p-4 rounded-full border border-morado-700 cursor-pointer hover:opacity-80 transition-all duration-300 hover:scale-105">
+                <a href="https://github.com/LuisPerez2008" target="_blanck" className="bg-morado-500/50 p-4 rounded-full border border-morado-700 cursor-pointer hover:opacity-80 transition-all duration-300 hover:scale-105">
                     <svg className="w-6" viewBox="0 0 1024 1024" fill="none">
                         <path
                             fill-rule="evenodd"
@@ -52,8 +52,8 @@ export const AboutMe = () => {
                             fill="#ffff"
                         />
                     </svg>
-                </div>
-                <div className="bg-morado-500/50 p-4 rounded-full border border-morado-700 cursor-pointer hover:opacity-80 transition-all duration-300 hover:scale-105">
+                </a>
+                <a href="https://www.linkedin.com/in/luis-antonio-perez-luna/" target="_blanck" className="bg-morado-500/50 p-4 rounded-full border border-morado-700 cursor-pointer hover:opacity-80 transition-all duration-300 hover:scale-105">
                     <svg
                         className="w-6"
                         preserveAspectRatio="xMidYMid"
@@ -64,15 +64,15 @@ export const AboutMe = () => {
                             fill="white"
                         />
                     </svg>
-                </div>
-                <div className="bg-morado-500/50 p-4 rounded-full border border-morado-700 cursor-pointer hover:opacity-80 transition-all duration-300 hover:scale-105">
+                </a>
+                <a href="https://x.com/lusho_08" target="_blanck" className="bg-morado-500/50 p-4 rounded-full border border-morado-700 cursor-pointer hover:opacity-80 transition-all duration-300 hover:scale-105">
                     <svg className="w-6" fill="none" viewBox="0 0 1200 1227">
                         <path
                             fill="#fff"
                             d="M714.163 519.284 1160.89 0h-105.86L667.137 450.887 357.328 0H0l468.492 681.821L0 1226.37h105.866l409.625-476.152 327.181 476.152H1200L714.137 519.284h.026ZM569.165 687.828l-47.468-67.894-377.686-540.24h162.604l304.797 435.991 47.468 67.894 396.2 566.721H892.476L569.165 687.854v-.026Z"
                         />
                     </svg>
-                </div>
+                </a>
             </div>
         </section>
 
