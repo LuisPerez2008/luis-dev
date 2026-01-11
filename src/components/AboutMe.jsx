@@ -1,6 +1,6 @@
 export const AboutMe = () => {
     return (
-        <section className="text-white wrapper space-y-4 mt-15  ">
+        <section className="text-white wrapper space-y-4 mt-15  md:sticky md:top-20 md:ml-20 ">
             <div className=" rounded-full  bg-linear-to-r w-24 h-24 wrapper from-indigo-200 via-purple-500 to-cyan-700 text-transparent p-4 rotate-22 opacity-100 shadow-3xl shadow-purple-200 ">
                 <h1 className=" text-2xl font-orbitron text-white font-extrabold -rotate-22 ">
                     LP
@@ -11,7 +11,7 @@ export const AboutMe = () => {
                     Luis Antonio Perez Luna
                 </h1>
                 <div className="wrapper mb-4">
-                    <h3 className="font-orbitron text-lg font-semibold text-morado-800 uppercase">
+                    <h3 className="font-orbitron text-lg font-semibold text-morado-800 uppercase text-center">
                         Ingeniero de Sistemas, FullSatck
                     </h3>
                     <span className="relative text-sm text-gray-400 before:block inline-flex items-center before:content-[''] before:bg-cyan-400 before:rounded-full  before:w-2 before:h-2 before:mr-2  ">
