@@ -30,10 +30,11 @@ export const Projects = () => {
                                         <a
                                             href={`${pro.link}`}
                                             target="_blank"
-                                        >
-                                            <span className="border border-morado-600 px-2 rounded-full cursor-pointer bg-morado-500/40 hover:bg-morado-600 transition-colors duration-300">
+                                        > 
+                                        { !pro.link ? "" : <span className="border border-morado-600 px-2 rounded-full cursor-pointer bg-morado-500/40 hover:bg-morado-600 transition-colors duration-300">
                                                 demo
-                                            </span>{" "}
+                                            </span> }
+                                            
                                         </a>
                                         <a
                                             href={`${pro.githubLink}`}

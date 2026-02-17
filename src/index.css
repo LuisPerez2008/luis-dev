@@ -32,6 +32,7 @@
 
 html, body {
   background-color: var(--color-principal);
+   scroll-behavior: smooth;
 }
 
 ::-webkit-scrollbar {

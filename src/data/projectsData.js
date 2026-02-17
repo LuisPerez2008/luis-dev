@@ -99,18 +99,33 @@ export const PROJECTS = [
       TAGS.FRONTEND.REACT,
       TAGS.BACKEND.SPRINGBOOT,
       TAGS.BACKEND.JAVA,
+      TAGS.DATABASE.POSTGRESQL
     ],
   },
   {
     title: "Api Pokemon",
     description:
-      "Lorem ipsum dolor sit ametljkj jklj kljl jkjljljjljlj kjljlj  jkljljl jkl j consectetur adipisicing elit. Illum ratione pariatur aut quae corporis asperiores.",
-    link: "https://google.com",
-    githubLink: "https://google.com",
+      " Una aplicación web moderna y responsiva para explorar información sobre todos los Pokémon. Construida con React, Vite y Tailwind CSS, ofrece una experiencia de usuario fluida y visualmente atractiva",
+    link: "https://pokedex-pi-swart.vercel.app/",
+    githubLink: "https://github.com/LuisPerez2008/pokedex",
     tags: [
       TAGS.FRONTEND.TAILWIND, 
       TAGS.FRONTEND.REACT, 
-      TAGS.BACKEND.NODE
+      TAGS.FRONTEND.JAVASCRIPT,
+      TAGS.FRONTEND.VITE
+    ],
+  },
+   {
+    title: "BRUJA STORE",
+    description:
+      "BrujaStore es un sistema backend robusto construido con Spring Boot 3 que proporciona todas las funcionalidades necesarias para administrar una tienda online moderna. La aplicación incluye gestión de productos, categorías, usuarios, pedidos, compras, devoluciones, promociones y un sistema integral de puntos de recompensa.",
+    link: "",
+    githubLink: "https://github.com/LuisPerez2008/BrujaStoreBackend#",
+    tags: [
+      TAGS.BACKEND.SPRINGBOOT, 
+      TAGS.BACKEND.JAVA,
+      TAGS.DATABASE.POSTGRESQL
+
     ],
   },
 ];
