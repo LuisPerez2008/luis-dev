@@ -39,10 +39,14 @@ export const Projects = () => {
                                         <a
                                             href={`${pro.githubLink}`}
                                             target="_blank"
-                                        >
-                                            <svg className="text-white  w-6 h-6 hover:text-morado-800 cursor-pointer transition-colors duration-300">
+
+                                        > 
+                                            {
+                                                !pro.githubLink ? "" : <svg className="text-white  w-6 h-6 hover:text-morado-800 cursor-pointer transition-colors duration-300">
                                                 <use href="/Icons.svg#github"></use>
                                             </svg>
+                                            }
+                                            
                                         </a>
                                     </div>
                                 </div>

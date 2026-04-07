@@ -91,7 +91,7 @@ export const PROJECTS = [
   {
     title: "Libreria LibroEspacio",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum ratione pariatur aut quae corporis asperiores.",
+      "Libro Espacio es una librería en línea diseñada para la venta de libros. Permite a los usuarios navegar por una amplia variedad de libros, agregar productos al carrito, gestionar su cuenta mediante un sistema de inicio de sesión y realizar compras en línea.",
     link: "https://front-libreria.vercel.app/",
     githubLink: "https://github.com/LuisPerez2008/front-libreria",
     tags: [
@@ -125,6 +125,21 @@ export const PROJECTS = [
       TAGS.BACKEND.SPRINGBOOT, 
       TAGS.BACKEND.JAVA,
       TAGS.DATABASE.POSTGRESQL
+
+    ],
+  },
+  {
+    title: "Veloura",
+    description:
+      "Landing page moderna (EN CONSTRUCCION) para la venta de carteras y accesorios. Plataforma diseñada para ofrecer una experiencia elegante y fluida en la compra de productos de moda y accesorios de calidad. Actualmente en construcción.",
+    link: "https://veloura-lac.vercel.app/",
+    githubLink: "",
+    tags: [
+      TAGS.FRONTEND.REACT,
+      TAGS.FRONTEND.TAILWIND,
+      TAGS.FRONTEND.JAVASCRIPT,
+      TAGS.FRONTEND.VITE,
+      TAGS.DATABASE.SUPABASE
 
     ],
   },

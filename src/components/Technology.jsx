@@ -17,7 +17,7 @@ export const Technology = () => {
                     </span>
                 </div>
                 <div className=" relative flex flex-col z-10 border border-morado-500 p-6 bg-morado-400/15 rounded-xl space-y-2 text-white backdrop-blur-xs hover:border-morado-700 hover:-translate-y-0.5 transition-transform duration-300">
-                    <div className="flex flex-col  gap-3 mt-2  ">
+                    <div className="flex flex-col  gap-4 space-y-3 mt-2  ">
                         {Object.keys(TAGS).map((category) => (
                             <div key={category} className="flex flex-col ">
                                 <span className="font-orbitron text-font-primary text-xs font-semibold ">
